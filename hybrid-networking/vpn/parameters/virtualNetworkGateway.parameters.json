@@ -20,13 +20,13 @@
       "value": {
         "name": "ra-hybrid-vpn-cn",
         "connectionType": "IPsec",
-        "sharedKey": "ChangeMe",
+        "sharedKey": "123secret",
         "virtualNetworkGateway1": {
           "name": "ra-hybrid-vpn-vgw"
         },
         "localNetworkGateway": {
           "name": "ra-hybrid-vpn-lgw",
-          "ipAddress": "13.6.0.4",
+          "ipAddress": "40.50.60.70",
           "addressPrefixes": [ "192.168.0.0/16" ]
         }
       }
