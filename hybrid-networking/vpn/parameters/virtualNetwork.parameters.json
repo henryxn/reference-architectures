@@ -6,16 +6,16 @@
       "value": {
         "name": "ra-hybrid-vpn-vnet",
         "addressPrefixes": [
-          "172.16.0.0/12"
+          "10.0.0.0/16"
         ],
         "subnets": [
           {
             "name": "GatewaySubnet",
-            "addressPrefix": "172.31.255.224/27"
+            "addressPrefix": "10.0.255.224/27"
           },
           {
             "name": "web",
-            "addressPrefix": "172.16.1.0/24"
+            "addressPrefix": "10.0.1.0/24"
           }
         ],
         "dnsServers": [ ]
